@@ -4,6 +4,8 @@ Un roguelike clásico en el navegador. Sin dependencias, sin build: JavaScript v
 
 **desciende. sobrevive. repite.**
 
+🎮 **[Jugar ahora](https://luisomorenoglez.github.io/cripta/)**
+
 ## Características
 
 - **Mazmorras procedurales** — salas y pasillos generados con un RNG con semilla (mulberry32), distintas en cada partida.
