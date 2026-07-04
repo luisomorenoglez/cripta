@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cripta — un roguelike</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>CRIPTA</h1>
+      <p class="subtitle">desciende. sobrevive. repite.</p>
+    </header>
+    <div id="layout">
+      <canvas id="game" width="1200" height="660"></canvas>
+      <aside id="sidebar">
+        <section id="stats">
+          <div class="stat"><span class="label">PV</span> <span id="hp">20/20</span></div>
+          <div class="hpbar"><div id="hpfill"></div></div>
+          <div class="stat"><span class="label">Nivel</span> <span id="plevel">1</span> <span class="label" style="margin-left:8px">XP</span> <span id="xp">0</span></div>
+          <div class="stat"><span class="label">ATQ</span> <span id="atk">3</span> <span class="label" style="margin-left:8px">DEF</span> <span id="def">1</span></div>
+          <div class="stat"><span class="label">Profundidad</span> <span id="depth">1</span></div>
+          <div class="stat"><span class="label">Oro</span> <span id="gold">0</span></div>
+          <div class="stat"><span class="label">Pociones</span> <span id="potions">0</span></div>
+        </section>
+        <section id="help">
+          <p><b>←↑↓→</b> / <b>WASD</b> mover · atacar</p>
+          <p><b>Q</b> beber poción</p>
+          <p><b>Espacio</b> esperar</p>
+          <p><b>R</b> reiniciar</p>
+        </section>
+        <section id="log"></section>
+      </aside>
+    </div>
+  </div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
